@@ -1,4 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(http://fonts.googleapis.com/css?family=Calligraffitti);
+
+body {
+	background-image: url('brickwall.png');
+}
+
+html, body {
+	height: 100%;
+
+	p {
+		font-family: Verdana, sans-serif;
+	}
+}
+
+.navbar-brand {
+	font-family: 'Rock Salt', cursive;
+	font-weight: 4em;
+	color: white;
+}
+
 .photo {
-	height: 100px;
-	width: 100px;
+	height: 250px;
+	width: 175px;
+	border-radius: 90%;
+	display: inline-block;
+	position: relative;
+	padding: 5px;
+
+}
+
+#left:before, #right:before {
+	position: relative;
+}
+
+h1, h2, h3 {
+	font-family: 'Rock Salt', cursive;
+}
+
+h4, .brief-intro {
+	font-family: 'Calligraffitti', cursive;
 }
